@@ -2,4 +2,9 @@
 
 Red neuronal para clasificar prendas de vestir.
 
-Micrositio: [https://jrbeduardo.github.io/fashion-project/](https://jrbeduardo.github.io/fashion-project/)
+# Introduccion 
+
+Clasificaro de imagenes
+
+pagina Web: [https://jrbeduardo.github.io/fashion-project/](https://jrbeduardo.github.io/fashion-project/)
+
