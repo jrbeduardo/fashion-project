@@ -100,5 +100,6 @@ def upload_image(image_data: ImageData):
         return data
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error processing the image: {str(e)}")
-    
+
+
 
