@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("loader").style.display = "inline-block";
         document.getElementById("result").style.display = "none";
 
-        fetch("http://localhost:8000/clasification_image", {
+        fetch("http://localhost:80/clasification_image", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

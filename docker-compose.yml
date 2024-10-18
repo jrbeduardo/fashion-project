@@ -6,13 +6,13 @@ services:
       context: ./api
       dockerfile: Dockerfile
     ports:
-      - 8080:80
+      - 80:80
   frontend:
     image: fontend-ropa
     build:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - 8082:80
+      - 82:80
     depends_on:
       - api
