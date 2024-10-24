@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("loader").style.display = "inline-block";
         document.getElementById("result").style.display = "none";
 
-        fetch("https://render-api-auq6.onrender.com/clasification_image", {
+        fetch("https://gcp-fashion-project-eduardo-619566813870.us-central1.run.app/clasification_image", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
